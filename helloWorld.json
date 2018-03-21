@@ -9,10 +9,10 @@
     {
       "payload": {
         "include-files": [
-          "homepage-customization/helloWorld.user.js"
+          "helloWorld/helloWorld.user.js"
         ],
 	      "include-repo":{
-	       "name": "homepage-cutomization"
+	       "name": "global-samples"
 	     }
       },
       "name": "Hello World Extension",
