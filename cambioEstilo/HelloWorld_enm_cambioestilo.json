@@ -1,0 +1,21 @@
+{ 
+	"extensions": [{ 
+		"payload": { 
+			"match": { 
+				"user-email": ["elisa.nunez@cv3.biz"] 
+			}, 
+			"include-files": ["cambioEstilo/HelloWorld_enm_cambioestilo.js"], 
+			"include-repo": { 
+				"name": "homepage-customization" 
+			} 
+		}, 
+		"name": "HelloWorld EXTENSION-ENM", 
+		"type": "com.ibm.customizer.ui", 
+		"path":"homepage", 
+		"application": "HelloWorld APP-ENM" 
+	}], 
+	"name": "HelloWorld APP-ENM", 
+	"description": "Hello world Homepage Customization from ENM", 
+	"services": ["Customizer"], 
+	"title": "ENM Hello World" 
+}
