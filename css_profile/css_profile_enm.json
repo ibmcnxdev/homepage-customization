@@ -1,0 +1,21 @@
+{
+      "extensions": [{
+            "payload": {
+                  "match": {
+                        "user-email": ["elisa.nunez@cv3.biz"]
+                  },
+                  "include-files": ["css_profile/css_profile_enm.js"],
+                  "include-repo": {
+                        "name": "homepage-customization"
+                  }
+            },
+            "name": "Profile EXTENSION-ENM",
+            "type": "com.ibm.customizer.ui",
+            "path": "profiles",
+            "application": "Profile APP-ENM"
+      }],
+      "name": "Profile APP-ENM",
+      "description": "Profile Customization",
+      "services": ["Customizer"],
+      "title": "ENM Profile Customization"
+}
