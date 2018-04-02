@@ -1,0 +1,27 @@
+{
+  "extensions": [
+	{
+      "application": "Flip Card APP-ENM",
+      "payload": {
+		"match": { 
+				"user-email": ["elisa.nunez@cv3.biz"] 
+			},
+        "include-files": [
+          "commListCardsFlipStyle/commListCardsFlipStyle-enm.js"
+        ],
+	"include-repo":{
+	  "name": "homepage-customization"
+	}
+      },
+      "name": "Communities FlipCard EXTENSION-ENN",
+      "type": "com.ibm.customizer.ui",
+      "path": "communities"
+    }
+  ],
+  "name": "Flip Card APP-ENM",
+  "description": "Renders Communities as flip cards rather than lists",
+  "services": [
+    "Customizer"
+  ],
+  "title": "ENM FlipCard Customization"
+}
