@@ -1,0 +1,21 @@
+{
+  "extensions": [
+	{
+      "application": "Hide Buttons APP-ENM",
+      "payload": {
+	  "match": {
+            "user-email": ["elisa.nunez@cv3.biz"]
+      },
+      "include-files": ["hideButton/hideButton-communities-enm.js"],
+      "include-repo": {"name": "homepage-customization"}
+      },
+      "name": "Communities Hide Buttons EXTENSION-ENM",
+      "type": "com.ibm.customizer.ui",
+      "path": "communities"
+    }
+  ],
+  "name": "Hide Buttons APP-ENM",
+  "description": "Does not render Communities New Communities Buttons",
+  "services": ["Customizer"],
+  "title": "ENM Hide Buttons Communities"
+}
