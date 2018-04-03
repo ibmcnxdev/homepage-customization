@@ -233,7 +233,7 @@
   width: 100%;
   height: 192px;
   display: block;
-  background: url('profileImageBackground.jpeg');
+  background: url('/files/customizer/css_profile/profileImageBackground.jpeg?repoName=homepage-customization');
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
