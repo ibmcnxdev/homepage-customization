@@ -2,7 +2,7 @@ if (typeof (dojo) != "undefined") {
     require(["dojo/domReady!"], function () {
         try {
             dojo.place(
-               "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/profiles/css_profile_enm.css?repoName=homepage-customization\"></link>",
+               "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/css_profile/css_profile_enm.css?repoName=homepage-customization\"></link>",
 				dojo.doc.head,
 				"last"
             );
