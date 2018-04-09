@@ -41,7 +41,7 @@ if(typeof(dojo) != "undefined") {
                     dojo.query(".lotusBtn", "memberAddButton").forEach(function(node) {
                         i=i+1;
                         console.log(i);
-                        if(i>2) {
+                        if(i>3) {
                           dojo.place("<span></span>", node, "replace");
                         }
                     });
