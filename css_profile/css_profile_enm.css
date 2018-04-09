@@ -1,3 +1,4 @@
+
 #_profilesViewWelcome_div {
   display: none;
 }
@@ -7,7 +8,6 @@
 }
 
 /** Heading **/
-
 
 .lotusui30 .lotusTitleBar2 {
   padding-bottom: 0;
@@ -19,22 +19,21 @@
 
 
 /** Profile Photo **/
-
 .lotusui .lotusColLeft .lconnProfilePortrait {
   width: 138px;
-  border: 5px solid #0b7180;
+  border: 1.5px dotted #a07550;  /**café**/
   margin-top: -20px;
 }
 
+/*********************************************************************************************************************/
 /** Main section **/
-
+/*********************************************************************************************************************/
 #lotusMain, #lotusFrame {
-  background: #f4f4f4;
+  background: #d1b196; /**café mas claro**/
 }
 
 
-/** Chunk **/
-
+/** Chunk - el formato del widget**/
 .lotusui30_layout .lotusColLeft .lotusSection,
 .lotusui30_layout .lotusColLeft .lotusTips,
 .lotusui30_layout .lotusColLeft .lotusWidget,
@@ -44,7 +43,7 @@
   margin: 0;
   padding: 10px 20px;
   margin-bottom: 20px;
-  border: 1px solid #e8e8e8;
+  border: 2px dotted #b7d6e2; /**celeste**/
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
   background: white;
 }
@@ -62,27 +61,29 @@
   padding-top: 10px!important;
 }
 
-/** Chunk heading **/
-
+/** Chunk heading - ENCABEZADO DEL WIDGET**/
 .lotusui30 .lotusColLeft .dijitTitlePaneTitle,
-.lotusui30 .lotusColLeft .lotusSection h2,
+.lotusui30 .lotusColLeft .lotusSection h1,
 .lotusui30 .lotusColLeft .lotusSection2 .lotusHeading,
-.lotusui30 .lotusColLeft .lotusWidget h2,
-.lotusui30 .lotusColLeft .lotusWidget2 h2,
+.lotusui30 .lotusColLeft .lotusWidget h1,
+.lotusui30 .lotusColLeft .lotusWidget2 h1,
 .lotusui30 .lotusColRight .dijitTitlePaneTitle,
-.lotusui30 .lotusColRight .lotusSection h2,
-.lotusui30 .lotusColRight .lotusWidget h2,
-.lotusui30 .lotusColRight .lotusWidget2 h2 {
-  border-bottom: 1px solid #e8e8e8;
+.lotusui30 .lotusColRight .lotusSection h1,
+.lotusui30 .lotusColRight .lotusWidget h1,
+.lotusui30 .lotusColRight .lotusWidget2 h1 {
+  border-bottom: 1px solid #b7d6e2; /**celeste**/
   margin-left: -20px;
   margin-right: -20px;
   padding-left: 20px;
   padding-bottom: 10px;
   padding-right: 10px;
   margin-bottom: 15px;
+  font: 25px arial, sans-serif
+  font-style: italic;
+  font-weight: bold;
 }
 
-.lotusWidget2 h2::before {
+.lotusWidget2 h1::before {
   content: '';
   height: 12px; width: 18px;
   display:block;
@@ -108,7 +109,7 @@
 }
 
 .lotusui30_layout .lotusColLeft {
-  background: #f4f4f4;
+  background: #b7d6e2;
   margin-left: 16px;
   margin-right: 10px;
 }
@@ -149,29 +150,31 @@
   margin: auto;
 }
 
-/** Updates section **/
 
+/*********************************************************************************************************************/
+/** Updates section **/
+/*********************************************************************************************************************/
 #lconn_tabsWidget1_CenterTabContent {
     margin-top: 277px;
 }
 
 #UpdatesSection {
-  background: #fff;
+  background: #91aeba;
   padding: 20px 0 0;
-  border: 1px solid #e8e8e8;
+  border: 1.5px dotted #b7d6e2;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
-  background:#fff;
+  background:#d1b196;
 }
 
 #UpdatesSection::before {
   content: 'Recent Updates';
   padding: 0 20px;
   font-weight: bold;
-  font-size: 14px;
-  border-bottom: 1px solid #e6e6e6;
+  font-size: 20px;
+  border-bottom: 1px dotted #b7d6e2;
   width: 100%;
   display: block;
   padding-bottom: 10px;
@@ -208,13 +211,15 @@
   border-radius: 0!important;
 }
 
-/** Center sections **/
 
+/*********************************************************************************************************************/
+/** Center sections **/
+/*********************************************************************************************************************/
 #contactInfoSection, #backgroundInfoSection,
 #filesReaderSection {
   padding: 10px 20px 25px;
-  background: #fff;
-    border: 1px solid #e8e8e8;
+  background: #d1b196;
+    border: 1px solid #b7d6e2;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -233,13 +238,13 @@
   width: 100%;
   height: 192px;
   display: block;
-  background: url('/files/customizer/css_profile/profileImageBackground.jpeg?repoName=homepage-customization');
+  background: url('/files/customizer/css_profile/bannerprofile.jpeg?repoName=homepage-customization');
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
   left: 0;
   position: absolute;
-  border-bottom: 120px solid #fff;
+  border-bottom: 120px solid #d1b196;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -325,7 +330,9 @@
   z-index: 100!important;
 }
 
+/*********************************************************************************************************************/
 /** My profile view **/
+/*********************************************************************************************************************/
 #_profilesMyViewWelcome_div {
   display: none;
 }
