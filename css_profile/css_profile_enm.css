@@ -111,6 +111,9 @@
   background: #b7d6e2; /**celeste **/
   margin-left: 25px;
   margin-right: 10px;
+  font: 25px arial, sans-serif
+  font-style: italic;
+  font-weight: bold;
 }
 
 .lotusui30_layout .lotusColRight {
@@ -125,6 +128,9 @@
   width: 64px;
   margin-right: 4px;
   margin-left: 3px
+  font: 25px arial, sans-serif
+  font-style: italic;
+  font-weight: bold;
 }
 
 .lotusNetworkPerson:nth-child(4), .lotusNetworkPerson:nth-child(8), .lotusNetworkPerson:nth-child(12) {
@@ -157,15 +163,15 @@
     margin-top: 277px;
 }
 
-#UpdatesSection { /**seccion RECENT UPDATES**/
-  background: #db15bd; /**fucsia**/
+#UpdatesSection { 
+  background: #db15bd; /** encabezado fondo fucsia - seccion RECENT UPDATES**/
   padding: 20px 0 0;
-  border: 1.5px dotted #b7d6e2;
+  border: 1.5px dotted #b7d6e2; /**celeste**/
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .lotusui30 .lotusBoard ul.lotusCommentList li.lotusCommentItem {
-  background:#4bccae;  /**verde - WIDGETS DE LAS SECCIONES CONTACT INFORMATION, BACKGROUND, FILES**/
+  background:#4bccae;  /**verde turquesa - donde la parte de comentarios de la sección RECENT UPDATES**/
 }
 
 #UpdatesSection::before { /**SECCION DE ETIQUETAS, ANTES DEL RECENT UPDATES**/
@@ -173,7 +179,7 @@
   padding: 0 20px;
   font-weight: bold;
   font-size: 20px;
-  border-bottom: 1px dotted #b7d6e2; /**celeste**/
+  border-bottom: 5px dotted #844322; /**café maduro**/
   width: 100%;
   display: block;
   padding-bottom: 10px;
